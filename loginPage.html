@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>e-commerce store</title>
+        <link rel="stylesheet" href="loginPage.css">
+        <link rel="stylesheet" href="index.html">
+    </head>
+    <body>
+        <div class="container">
+            <form action="" class="form" id="login">
+                <h1 class="title-form">Login</h1>
+                <div class="message-form message-form--error">
+                     
+                </div>
+                <div class="input-form">
+                    <input type="text" class="input" autofocus placeholder="Email">
+                    <div class="input-error"></div>
+
+                </div>
+                <div class="input-form">
+                    <input type="password" class="input" autofocus placeholder="Password">
+                    <div class="input-error"></div>
+
+                </div>
+                <button class="button-from" type="submit" >login</button>
+                <p class="formText">
+                    <a  class="form-link">Forgot Password</a>
+                </p>
+                <p class="formText">
+                    <a id="linkCreate" class="form-link">create account </a>
+                </p>
+
+            </form>
+            <form action="" class="form form-non" id="createAccount">
+                <h1 class="title-form">Create Account</h1>
+                <div class="message-form message-form--error">
+                     
+                </div>
+                <div class="input-form">
+                    <input type="text" id="signUpUsername" class="input" autofocus placeholder="Username">
+                    <div class="input-error"></div>
+                    <input type="text"  class="input" autofocus placeholder="Email">
+                    <div class="input-error"></div>
+
+                </div>
+                <div class="input-form">
+                    <input type="password" class="input" autofocus placeholder="Password">
+                    <div class="input-error"></div>
+                    <div class="input-form">
+                        <input type="password" class="input" autofocus placeholder="confirm password">
+                        <div class="input-error"></div>
+
+                </div>
+                <button class="button-from" type="submit" >Create</button>
+
+                <p class="formText">
+                    <a id="linkLogIn"  class="form-link">Sign In </a>
+                </p>
+
+            </form>
+        </div>
+
+
+
+         <script src="loginPage.js"></script>
+    </body>
+</html>

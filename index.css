@@ -1,0 +1,319 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin:0;
+    
+}
+
+
+nav{
+    background-color: rgb(16, 163, 221);
+    padding: 15px 32px;
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+
+}
+.searchBar{
+    border: 0px;
+    background-color: transparent;
+    padding: 7px 20px;
+}
+.searchIcon{
+    cursor: pointer;
+}
+.searchBar::placeholder{
+    color: rgb(142, 141, 141);
+}
+.allProducts{
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.cartIcon{
+    width: 40px;
+    cursor: pointer;
+    margin-right: 3px;
+
+  }
+
+.navButtom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuItem{
+    margin-right: 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    
+}
+
+.sliderWrapper{
+    display: flex;
+    width: 500vw;
+    transition: all 0.8s ease-in-out;
+
+}
+
+.sliderItem{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ 
+
+}
+.sliderTitle{
+    position: absolute;
+    top: 1%;
+    right: 3%;
+    font-size: 60px;
+    font-weight: 600; 
+}
+.sliderPrice{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.sliderImg {
+    margin-top: 7%;
+    margin-right: 3%;
+    width: 40%;
+    height: auto;
+    bottom: 10%;
+}
+.buyButton{
+    position: absolute;
+    top: 70%;
+    right:3%;
+    font-size: 50px;
+    font-weight: 650;
+    border: 1px solid lightgray;
+    background-color: rgb(16, 163, 221);
+    cursor: pointer;
+}
+.buyButton:hover{
+   background-color: black;
+   color: rgb(16, 163, 221);
+}
+
+.product{
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+.payment
+{
+    width: 600px;
+    height: 610px;
+    background-color:rgb(8, 144, 207);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 50px;
+    display: none
+    ;
+    flex-direction: column;
+    box-shadow: 9px 6px 25px 2px rgba(0,0,0,0.84);
+    
+    
+    
+}
+.payTitle{
+    font-size: 20px;
+
+}
+label{
+    font-size: 14px;
+}
+.payInput{
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+
+}
+.payInput::placeholder{
+    color: black;
+
+}
+ .cardIcons{
+    display: flex;
+ }
+ .cardIcon{
+    margin-right: 10px;
+ }
+ .cardInfo{
+    display: flex;
+    justify-content: space-between;
+ }
+ .payButton{
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    width: 100%;
+    left: 0;
+    box-shadow: 9px 6px 25px 2px rgba(0,0,0,0.84);
+    background-color: rgb(32, 146, 67);
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: we;
+
+ }
+ .close{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding-bottom: 2px;
+ }
+.productImg{
+    width: 40%;
+    margin-top: 50px;
+
+}
+.productDetails{
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+
+}
+.colors{
+   
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 41%;
+    bottom: 15%;
+}
+.color{
+     width: 47px;
+     height: 32px;
+     border-radius: 5px;
+     background-color: black;
+     margin-right: 8px;
+     cursor: pointer;
+}
+
+.color:last-child{
+    background-color: red;
+}
+
+.productButton{
+    position: absolute;
+    bottom: 7%;
+    height: 50px;
+    width: 20%; 
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.productButton:hover{
+    color: black;
+    background-color: white;
+
+    
+}
+.productTitle{
+    font-weight: 800;
+    font-size: 70px;
+}
+.productPrice{
+    font-weight: 450;
+    font-size: 50px;
+}
+.productDis{
+    font-weight: 350;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+}
+.fotterLeft{
+    margin-top: 200px;
+    flex: 2 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   
+}
+.fMenueTitle{
+    font-size: 20px;
+}
+.fMenuList{
+    padding-left: 30px;
+}
+.fListItem{
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+
+}
+.fotterRight{
+    flex:1.5;
+    
+}
+.contact{
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.contact-support{
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.contact-company{
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer; 
+}
+
+.maps{
+    display: flex;
+    justify-content: space-between;
+}
+.payInput-maps{
+    width: 70%;
+    height: 50px;
+    margin-top: 30px;
+    
+}
+.maps-google{
+    width: 130px;
+    height: 100px;
+    border: 0;
+    margin-bottom: 10px;
+
+}

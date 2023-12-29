@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>e-commerce store</title>
+</head>
+<body>
+    <nav>
+        <div class="navTop">
+            <div class="navItem">
+                <span class="allProducts" id="allProducts">All Products</span>
+            </div>
+            <div class="navItem">
+                <div class="search">
+                <input type="text" placeholder="search." class="searchBar">
+                <img src="img/searchicon.png" width="20" height="20" alt="" class="searchIcon">
+            </div>
+        </div>
+            <div class="navItem">
+                <img src="img/cart.png" alt="" class="cartIcon">
+                
+            </div>
+        </div>
+        <div class="navButtom">
+            <h3 class="menuItem">earbuds</h3>
+            <h3 class="menuItem">phones</h3>
+            <h3 class="menuItem">washing machines</h3>
+            <h3 class="menuItem">cars</h3>
+            <h3 class="menuItem">Fridges</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div  class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="img/earbuds1.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">earbuds</h1>
+                <h2 class="sliderprice">200$</h2>
+               <a href="#product"> <button class="buyButton">BUY NOW</button></a>
+            </div>
+            <div class="sliderItem">
+                <img src="img/mob1.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Iphone12</h1>
+                <h2 class="sliderprice">999$</h2>
+               <a href="#product"> <button class="buyButton">BUY NOW</button></a>
+                
+            </div>
+            <div class="sliderItem">
+                <img src="img/wash1.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Washing Mashine</h1>
+                <h2 class="sliderprice">450$</h2>
+               <a href="#product"> <button class="buyButton">BUY NOW</button></a>
+            </div>
+            <div class="sliderItem">
+                <img src="img/car1" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">mercedes</h1>
+                <h2 class="sliderprice">300000$</h2>
+               <a href="#product"> <button class="buyButton">BUY NOW</button></a>
+            </div>
+            <div class="sliderItem">
+                <img src="img/fridge1.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Lg Fridge</h1>
+                <h2 class="sliderprice">2200$</h2>
+               <a href="#product"> <button class="buyButton">BUY NOW</button></a>
+            </div>
+            
+            
+        </div>
+    </div>
+    <div class="product" id="product">
+        <img src="img/earbuds1.jpg" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">earbuds<br></br></h1>
+            <h2 class="productPrice">200$</h2>
+            <p class="productDis">Featuring the latest Bluetooth technology</p>
+        </div>
+        <div class="colors">
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+        <button class="productButton">Buy</button>
+        <div class="payment">
+            <h1 class="PayTitle">Personal information</h1>
+            <label for="">Name and Surname</label>
+            <input type="text" placeholder="name" class="PayInput">
+            <label for="">Phone number</label>
+            <input type="text" placeholder="+905555555" class="PayInput">
+            <label for="">Location</label>
+            
+            <h1 class="PayTitle">Card information</h1>
+            <div class="cardIcons">
+                <img src="img/Mastercard-logo.svg.png" alt="" width="60" class="carsIcon">
+                <img src="" alt="">
+            </div>
+            <input type="password" class="PayInput" placeholder="cardnumber">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <h1 class="PayTitle">Address</h1>
+            <label for="address">Google Maps Address</label>
+            <div class="maps">
+                <input type="text" id="address" placeholder="Enter your address" class="PayInput-maps">
+                <iframe class="maps-google"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3013.3528703668994!2d29.389542376852805!3d40.951847971358575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad7b50f100fcb%3A0x4bfe6a3dfc7c6a76!2s%C4%B0stanbul%20Okan%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1703066216621!5m2!1str!2str"></iframe>
+            </div>
+            
+            <button class="PayButton">Check Out</button>
+            <span class="close">X</span>
+        </div>
+       
+        
+    </div>
+    <footer>
+        <div class="fotterLeft">
+            <div class="footerMenu">
+                <h1 class="fMenueTitle">Contact us</h1>
+                <ul class="fMenuList">
+                    <li class="contact-support">Support</li>
+                    <li class="contact">Contact US</li>
+                    <li class="contact-company">Company</li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenueTitle">products</h1>
+                <ul class="fMenuList">
+                    <li class="fListItem">earbuds</li>
+                    <li class="fListItem">phones</li>
+                    <li class="fListItem">washing mashines</li>
+                    <li class="fListItem">cars</li>
+                    <li class="fListItem">Fridges</li>
+
+                </ul>
+            </div>
+
+        </div>
+       
+
+    </div>
+        <div class="fotterRight">
+           
+        </div> 
+        
+    </footer>
+  
+
+    <script src="index.js"></script>
+</body>
+</html>
